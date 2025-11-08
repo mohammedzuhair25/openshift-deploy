@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         OPENSHIFT_API = "https://api.crc.testing:6443"
-        PROJECT_NAME = "jenkins-deploy"
+        PROJECT_NAME = "dev1"
         TOKEN = credentials('openshift2') // Jenkins secret
     }
     stages {
